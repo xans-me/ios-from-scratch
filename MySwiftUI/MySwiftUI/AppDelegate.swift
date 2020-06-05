@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MySwiftUI
 //
-//  Created by Gilang Ramadhan on 23/03/20.
+//  Created by Teuku Mulia Ichsan on 06/06/20.
 //  Copyright © 2020 Dicoding Indonesia. All rights reserved.
 //
 

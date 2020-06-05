@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MySimpleHeroApp
 //
-//  Created by Gilang Ramadhan on 29/03/20.
+//  Created by Teuku Mulia Ichsan on 06/06/20.
 //  Copyright © 2020 Dicoding Indonesia. All rights reserved.
 //
 
@@ -14,5 +14,7 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+
+
 }
 
