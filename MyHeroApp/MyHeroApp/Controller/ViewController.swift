@@ -2,12 +2,12 @@
 //  ViewController.swift
 //  MyHeroApp
 //
-//  Created by Gilang Ramadhan on 30/03/20.
+//  Created by Teuku Mulia Ichsan on 07/06/20.
 //  Copyright © 2020 Dicoding Indonesia. All rights reserved.
 //
 
 import UIKit
-
+ 
 class ViewController: UIViewController {
     
     @IBOutlet weak var heroTableView: UITableView!
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
     
 }
-
+ 
 extension ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Digunakan untuk menambahkan total item yang akan muncul di dalam Table View
@@ -52,10 +52,10 @@ extension ViewController: UITableViewDataSource{
         return cell
     }
 }
-
+ 
 extension ViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        // Memanggil View Controller dengan berkas NIB/XIB di dalamnya
+        // Memanggil View Controller dengan berkas XIB di dalamnya
         let detail = DetailViewController(nibName: "DetailViewController", bundle: nil)
         
         // Mengirim data hero
@@ -65,3 +65,4 @@ extension ViewController: UITableViewDelegate{
         self.navigationController?.pushViewController(detail, animated: true)
     }
 }
+
