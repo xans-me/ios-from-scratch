@@ -6,4 +6,18 @@
 //  Copyright © 2020 Dicoding Indonesia. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+enum Category: String, CaseIterable, Codable, Hashable{
+    case hot
+    case cold
+    case filter
+}
+
+struct Drink {
+    let name: String
+    let image: UIImage
+    let category: Category
+    let description: String
+    let price: Double
+}

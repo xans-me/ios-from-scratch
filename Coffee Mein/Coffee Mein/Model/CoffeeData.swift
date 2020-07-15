@@ -6,4 +6,16 @@
 //  Copyright © 2020 Dicoding Indonesia. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+enum Category: String, CaseIterable, Codable, Hashable{
+    
+    case hot
+    case cold
+    case filter
+    
+}
+
+var coffeeList : [Drink] = [
+    
+]
